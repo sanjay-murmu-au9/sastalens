@@ -1,0 +1,153 @@
+.navBarHearder{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    /* border: 3px solid red; */
+    /* margin-bottom: 50%; */
+    padding: 6px;
+    background-color: rgb(94, 250, 255);
+}
+
+.cardLog{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {  
+    .navBarHearder{
+        z-index: 100;
+        /* left: 0; */
+        /* top: 0; */
+        /* padding: 30px; */
+        /* border: 2px solid red; */
+        background-color: rgb(94, 250, 255);
+        /* display: flex; */
+        justify-content: center;
+        text-align: center;
+
+    }
+    .logo{
+        /* display: inline-block; */
+        /* width: 27%; */
+        /* border: 2px solid; */
+
+        /* position: absolute; */
+        /* margin-right: auto; */
+        /* left: -16px; */
+
+
+    
+    }
+    .logo img{
+        /* margin-left: -5px; */
+        /* margin-top: -6px; */
+        /* margin-left: 5px; */
+    }
+    .logoDesign{
+        /* background-color: red; */
+        color:white;
+        font-style:initial;
+        font-weight: 900px;
+        text-decoration: none;
+    }
+
+
+
+    .inputBox{
+        /* display: inline-block; */
+        /* width: 62%; */
+        /* margin-left: 23px; */
+        /* position: fixed; */
+        /* border: 2px solid rgb(250, 11, 170); */
+        
+    }
+
+    .input-group{
+        /* background-color: red; */
+        margin-top: -5px;
+    
+    }
+
+
+    .cardLog{
+        /* border: 2px solid rgb(0, 0, 0); */
+        position: absolute;
+        right: 0;
+        /* width: 15%; */
+        display: flex;
+        /* justify-content: space-around; */
+        /* border: 2px solid black; */
+        margin-top: 9px;
+       
+    }
+    #cart{
+        display: none;
+    }
+
+    .allHaeder{
+        /* border: 2px solid red; */
+        /* margin-bottom: 30px; */
+    }
+
+    /* cart */
+    .mYourCart{
+        /* background-color: red; */
+        padding-top: 50px;
+    }
+
+    /* //Add to cart */
+    #cart_btn{
+        border: 2px solid black;
+        padding: 50px;
+
+    }
+
+    .avatar-nav{
+        /* border: 1px solid red; */
+        /* padding-bottom:30px ; */
+        margin-top: -15px;
+    }
+}
+
+.inputBox{
+    justify-content: center;
+    margin-top: 4px;
+    /* background-color: red; */
+}
+
+
+.logo{
+    /* border: 2px solid yellow; */
+    margin-top: 3px;
+}
+.logo img{
+    border-radius: 50%;
+}
+
+.allHaeder{
+    /* border: 2px solid red; */
+    margin-top: -6px;
+}
+
+.logoDesign{
+    /* background-color: red; */
+    margin-top: 6px;
+
+}
+
+.logoDesign:visited {
+    text-decoration: none;
+}
+
+@media (min-width: 769px) and (min-width: 1199.98px) { 
+    .logoDesign{
+        background-color: red;
+        color: black;
+        display: none;
+    }
+ }
+
+ a, a:visited, a:hover, a:active {
+    text-decoration:none;
+}

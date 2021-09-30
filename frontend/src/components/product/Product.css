@@ -1,0 +1,33 @@
+@media (max-width: 768px) {  
+
+    #cart_btn{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+
+    .card-body{
+        /* border: 2px solid black; */
+        align-items: center;
+    }
+    .card-title{
+        /* border: 2px solid black; */
+   
+        
+    }
+    .mobileView{
+        /* background-color: red; */
+        /* width:90; */
+        /* margin-left: -50px; */
+    }
+    .NumberOfProduct{
+        border: 1px solid black;
+    }
+
+    .card-img-top{
+        border: 1px solid black;
+        margin-left: 12px;
+    }
+}
+
